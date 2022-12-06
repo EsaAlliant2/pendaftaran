@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="col-lg-8">
-                    
+                    <form action="{{route('setting.store')}}" method="POST">
                     <div class="">
                         <div class="card-body">
                             <div class="row">
@@ -42,7 +42,7 @@
                                     <p class="text-muted mb-0"> {{ Auth()->user()->name }}</p>
                                 </div>
                             </div>
-
+                        </form>
                             <hr>
 
                             <div class="row">
@@ -76,7 +76,6 @@
                                     <p class="text-muted mb-0">SMK ANTARTIKA 1</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

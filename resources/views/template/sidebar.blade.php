@@ -4,7 +4,7 @@
             <a href="index.html" class="text-white">Ppdb</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
-            <a href="{{ route('dashboard') }}">INV</a>
+            <a href="{{ route('dashboard') }}">PPDB</a>
         </div>
         <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>

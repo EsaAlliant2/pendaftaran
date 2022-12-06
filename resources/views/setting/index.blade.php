@@ -46,124 +46,13 @@
                   <a href="#">Mark All As Read</a>
                 </div>
               </div>
-              <div class="dropdown-list-content dropdown-list-message">
-                <a href="#" class="dropdown-item dropdown-item-unread">
-                  <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle">
-                    <div class="is-online"></div>
-                  </div>
-                  <div class="dropdown-item-desc">
-                    <b>Kusnaedi</b>
-                    <p>Hello, Bro!</p>
-                    <div class="time">10 Hours Ago</div>
-                  </div>
-                </a>
-                <a href="#" class="dropdown-item dropdown-item-unread">
-                  <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-2.png" class="rounded-circle">
-                  </div>
-                  <div class="dropdown-item-desc">
-                    <b>Dedik Sugiharto</b>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    <div class="time">12 Hours Ago</div>
-                  </div>
-                </a>
-                <a href="#" class="dropdown-item dropdown-item-unread">
-                  <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-3.png" class="rounded-circle">
-                    <div class="is-online"></div>
-                  </div>
-                  <div class="dropdown-item-desc">
-                    <b>Agung Ardiansyah</b>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <div class="time">12 Hours Ago</div>
-                  </div>
-                </a>
-                <a href="#" class="dropdown-item">
-                  <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-4.png" class="rounded-circle">
-                  </div>
-                  <div class="dropdown-item-desc">
-                    <b>Ardian Rahardiansyah</b>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-                    <div class="time">16 Hours Ago</div>
-                  </div>
-                </a>
-                <a href="#" class="dropdown-item">
-                  <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle">
-                  </div>
-                  <div class="dropdown-item-desc">
-                    <b>Alfa Zulkarnain</b>
-                    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                    <div class="time">Yesterday</div>
-                  </div>
-                </a>
-              </div>
+             
               <div class="dropdown-footer text-center">
                 <a href="#">View All <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
           </li>
-          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
-            <div class="dropdown-menu dropdown-list dropdown-menu-right">
-              <div class="dropdown-header">Notifications
-                <div class="float-right">
-                  <a href="#">Mark All As Read</a>
-                </div>
-              </div>
-              <div class="dropdown-list-content dropdown-list-icons">
-                <a href="#" class="dropdown-item dropdown-item-unread">
-                  <div class="dropdown-item-icon bg-primary text-white">
-                    <i class="fas fa-code"></i>
-                  </div>
-                  <div class="dropdown-item-desc">
-                    Template update is available now!
-                    <div class="time text-primary">2 Min Ago</div>
-                  </div>
-                </a>
-                <a href="#" class="dropdown-item">
-                  <div class="dropdown-item-icon bg-info text-white">
-                    <i class="far fa-user"></i>
-                  </div>
-                  <div class="dropdown-item-desc">
-                    <b>You</b> and <b>Dedik Sugiharto</b> are now friends
-                    <div class="time">10 Hours Ago</div>
-                  </div>
-                </a>
-                <a href="#" class="dropdown-item">
-                  <div class="dropdown-item-icon bg-success text-white">
-                    <i class="fas fa-check"></i>
-                  </div>
-                  <div class="dropdown-item-desc">
-                    <b>Kusnaedi</b> has moved task <b>Fix bug header</b> to <b>Done</b>
-                    <div class="time">12 Hours Ago</div>
-                  </div>
-                </a>
-                <a href="#" class="dropdown-item">
-                  <div class="dropdown-item-icon bg-danger text-white">
-                    <i class="fas fa-exclamation-triangle"></i>
-                  </div>
-                  <div class="dropdown-item-desc">
-                    Low disk space. Let's clean it!
-                    <div class="time">17 Hours Ago</div>
-                  </div>
-                </a>
-                <a href="#" class="dropdown-item">
-                  <div class="dropdown-item-icon bg-info text-white">
-                    <i class="fas fa-bell"></i>
-                  </div>
-                  <div class="dropdown-item-desc">
-                    Welcome to Stisla template!
-                    <div class="time">Yesterday</div>
-                  </div>
-                </a>
-              </div>
-              <div class="dropdown-footer text-center">
-                <a href="#">View All <i class="fas fa-chevron-right"></i></a>
-              </div>
-            </div>
-          </li>
+          
           @include('template.navbar')
           <!-- <li class="dropdown"><a href="{{Auth()->user()->name}}" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
             <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
@@ -239,21 +128,6 @@
             <div id="output-status"></div>
             <div class="row">
               <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                    <h4>Jump To</h4>
-                  </div>
-                  <div class="card-body">
-                    <ul class="nav nav-pills flex-column">
-                      <li class="nav-item"><a href="#" class="nav-link active">General</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">SEO</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Email</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">System</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Security</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">Automation</a></li>
-                    </ul>
-                  </div>
-                </div>
               </div>
               <div class="col-md-8">
                 <form id="setting-form">
@@ -262,46 +136,19 @@
                       <h4>General Settings</h4>
                     </div>
                     <div class="card-body">
-                      <p class="text-muted">General settings such as, site title, site description, address and so on.</p>
+                      <p class="text-muted"></p>
                       <div class="form-group row align-items-center">
-                        <label for="site-title" class="form-control-label col-sm-3 text-md-right">Site Title</label>
+                        <label for="site-title" class="form-control-label col-sm-3 text-md-right">Nama</label>
                         <div class="col-sm-6 col-md-9">
                           <input type="text" name="site_title" class="form-control" id="site-title">
                         </div>
                       </div>
                       <div class="form-group row align-items-center">
-                        <label for="site-description" class="form-control-label col-sm-3 text-md-right">Site Description</label>
+                        <label for="site-description" class="form-control-label col-sm-3 text-md-right">alamat</label>
                         <div class="col-sm-6 col-md-9">
                           <textarea class="form-control" name="site_description" id="site-description"></textarea>
                         </div>
                       </div>
-                      <div class="form-group row align-items-center">
-                        <label class="form-control-label col-sm-3 text-md-right">Site Logo</label>
-                        <div class="col-sm-6 col-md-9">
-                          <div class="custom-file">
-                            <input type="file" name="site_logo" class="custom-file-input" id="site-logo">
-                            <label class="custom-file-label">Choose File</label>
-                          </div>
-                          <div class="form-text text-muted">The image must have a maximum size of 1MB</div>
-                        </div>
-                      </div>
-                      <div class="form-group row align-items-center">
-                        <label class="form-control-label col-sm-3 text-md-right">Favicon</label>
-                        <div class="col-sm-6 col-md-9">
-                          <div class="custom-file">
-                            <input type="file" name="site_favicon" class="custom-file-input" id="site-favicon">
-                            <label class="custom-file-label">Choose File</label>
-                          </div>
-                          <div class="form-text text-muted">The image must have a maximum size of 1MB</div>
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label class="form-control-label col-sm-3 mt-3 text-md-right">Google Analytics Code</label>
-                        <div class="col-sm-6 col-md-9">
-                          <textarea class="form-control codeeditor" name="google_analytics_code"></textarea>
-                        </div>
-                      </div>
-                    </div>
                     <div class="card-footer bg-whitesmoke text-md-right">
                       <button class="btn btn-primary" id="save-btn">Save Changes</button>
                       <button class="btn btn-secondary" type="button">Reset</button>

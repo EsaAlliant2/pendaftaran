@@ -55,4 +55,5 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard
 Route::resource('/profile', Profilcontroller::class);
 
 //setting
+Route::get('/setting/data', [SettingController::class, 'data'])->name('setting.data');
 Route::resource('/setting', SettingController::class);
