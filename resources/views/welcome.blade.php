@@ -14,15 +14,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="{{asset ('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset ('asset2/css/bootstrap.min.css')}}">
     <!-- style css -->
-    <link rel="stylesheet" href="{{asset ('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset ('asset2/css/style.css')}}">
     <!-- Responsive-->
-    <link rel="stylesheet" href="{{asset ('assets/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{asset ('asset2/css/responsive.css')}}">
     <!-- fevicon -->
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="{{asset ('assets/css/jquery.mCustomScrollbar.min.css')}}">
+    <link rel="stylesheet" href="{{asset ('asset2/css/jquery.mCustomScrollbar.min.css')}}">
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
@@ -331,7 +331,7 @@
                                             <h3>Address </h3>
                                         </div>
                                         <ul class="location_icon">
-                                            <li>Jl.Siwalanpanji, Kec. Buduran Sidoarjo, Indonesia  +6231-8962851</li>
+                                            <li><i class="fa fa-map-marker-alt">Jl.Siwalanpanji, Kec. Buduran Sidoarjo, Indonesia</i>  <i class="fa fa-phone"> +6231-8962851</i></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4 col-sm-6">
@@ -353,15 +353,15 @@
                                             <h3>Follow Us</h3>
                                         </div>
                                         <ul class="social_icon">
-                                            <li><a href="#">Facebook <i class="fa fa-facebook"
+                                            <li><a href="">Facebook <i class="fa fa-facebook"
                                                         aria-hidden="true"></i></a></li>
                                             <li><a href="#"> Twitter<i class="fa fa-twitter" aria-hidden="true"></i></a>
                                             </li>
                                             <li><a href="#"> Linkedin<i class="fa fa-linkedin-square"
                                                         aria-hidden="true"></i></a></li>
-                                            <li><a href="#"> Youtube<i class="fa fa-youtube-play"
+                                            <li><a href="https://youtube.com/@1akun365"> Youtube<i class="fa fa-youtube-play"
                                                         aria-hidden="true"></i></a></li>
-                                            <li><a href="#"> Instagram<i class="fa fa-instagram"
+                                            <li><a href="https://www.instagram.com/invites/contact/?i=2cx2isqyvnni&utm_content=9twb1v2"> Instagram<i class="fa fa-instagram"
                                                         aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div>
@@ -387,13 +387,13 @@
 
         <div class="overlay"></div>
         <!-- Javascript files-->
-        <script src="{{asset ('assets/js/jquery.min.js')}}"></script>
-        <script src="{{asset ('assets/js/popper.min.js')}}"></script>
-        <script src="{{asset ('assets/js/bootstrap.bundle.min.js')}}"></script>
-        <script src="{{asset ('assets/js/jquery-3.0.0.min.js')}}"></script>
+        <script src="{{asset ('asset2/js/jquery.min.js')}}"></script>
+        <script src="{{asset ('asset2/js/popper.min.js')}}"></script>
+        <script src="{{asset ('asset2/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{asset ('asset2/js/jquery-3.0.0.min.js')}}"></script>
         <!-- sidebar -->
-        <script src="{{asset ('assets/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-        <script src="{{asset ('assets/js/custom.js')}}"></script>
+        <script src="{{asset ('asset2/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+        <script src="{{asset ('asset2/js/custom.js')}}"></script>
         <script type="text/javascript">
             $(document).ready(function () {
                 $("#sidebar").mCustomScrollbar({
