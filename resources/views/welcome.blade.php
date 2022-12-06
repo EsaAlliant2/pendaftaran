@@ -148,7 +148,7 @@
                                     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                                         <div class="text-bg">
                                             <h1>SMK<br> Antartika 1 <br>Sidoarjo</h1>
-                                            <p><i class="fa fa-map-marker-alt">Jl.Siwalanpanji, Kec. Buduran Sidoarjo, Indonesia </i>  <i class="fa fa-phone"> +6231-8962851</i> </p>
+                                            <p><i class="fa fa-map-marker"> Jl.Siwalanpanji, Kec. Buduran Sidoarjo, Indonesia </i>  <i class="fa fa-phone"> +6231-8962851</i> </p>
                                         </div>
                                     </div>
                                     <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
@@ -331,7 +331,7 @@
                                             <h3>Address </h3>
                                         </div>
                                         <ul class="location_icon">
-                                            <li><i class="fa fa-map-marker-alt">Jl.Siwalanpanji, Kec. Buduran Sidoarjo, Indonesia</i>  <i class="fa fa-phone"> +6231-8962851</i></li>
+                                            <li><i class="fa fa-map-marker"> Jl.Siwalanpanji, Kec. Buduran Sidoarjo, Indonesia</i>  <i class="fa fa-phone"> +6231-8962851</i></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4 col-sm-6">

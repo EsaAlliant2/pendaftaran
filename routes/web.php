@@ -6,7 +6,8 @@ use App\Http\Controllers\{
     DashboardController,
     SiswaController,
     JurusanController,
-    Profilcontroller
+    Profilcontroller,
+    SettingController
 };
 
 /*
@@ -52,3 +53,6 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard
 
 //route profile
 Route::resource('/profile', Profilcontroller::class);
+
+//setting
+Route::resource('/setting', SettingController::class);
